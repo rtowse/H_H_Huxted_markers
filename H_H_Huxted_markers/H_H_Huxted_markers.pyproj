@@ -12,6 +12,12 @@
     <OutputPath>.</OutputPath>
     <Name>H_H_Huxted_markers</Name>
     <RootNamespace>H_H_Huxted_markers</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>"C:\temp\H_H_Huxted\Week 1 Cheadle.txt" CustomerSpatial_test</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +29,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="H_H_Huxted_markers.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="defaults.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
